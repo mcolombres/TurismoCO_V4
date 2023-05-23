@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true">
+
+    <ScrollView
+        style="@android:style/Widget.Material.ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="30dp">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:isScrollContainer="true"
+            android:scrollbars="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="3dp">
+
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appBarLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fitsSystemWindows="true">
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_main"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:background="@drawable/gradient_title"
+                app:logo="@drawable/iconoturismo_co_1"
+                app:logoDescription="@string/app_subtitle"
+                app:subtitle="@string/app_subtitle"
+                app:subtitleTextColor="@color/black"
+                app:title="@string/app_title2"
+                app:titleMarginStart="40dp"
+                app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
+                >
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <Button
+                android:id="@+id/button_ordenar"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="75dp"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/ordenar"
+                android:text="@string/TextoOrdenar"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/black"
+                android:textDirection="rtl"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/button_mapa"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="75dp"
+                android:backgroundTint="@color/white"
+                android:drawableStart="@drawable/pin"
+                android:drawablePadding="8dp"
+                android:text="@string/TextoMapa"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/BSitioHistorico1"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="128dp"
+                android:autofillHints=" "
+                android:background= "@drawable/oval"
+                android:contentDescription=" "
+                app:srcCompat = "@drawable/co1914"
+                />
+
+
+            <TextView
+                android:id="@+id/TSitioHistorico1_A"
+                android:layout_width="230dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="150dp"
+                android:backgroundTint="@color/white"
+                android:cursorVisible="false"
+                android:duplicateParentState="false"
+                android:focusable="false"
+                android:fontFamily="@font/helveticaneuemedium"
+                android:foregroundTint="@color/black"
+                android:importantForAccessibility="no"
+                android:text="@string/TextoSitioH1_A"
+                android:textAlignment="center"
+
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TSitioHistorico1_B"
+                android:layout_width="140dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="220dp"
+                android:backgroundTint="@color/white"
+                android:cursorVisible="false"
+                android:drawableStart="@drawable/pin"
+                android:duplicateParentState="false"
+                android:focusable="false"
+                android:fontFamily="@font/helveticaneubold"
+                android:foregroundTint="@color/black"
+                android:importantForAccessibility="no"
+                android:text="@string/TextoSitioH1_C"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/BSitioHistorico2"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="260dp"
+                android:autofillHints=" "
+                android:background="@drawable/maimo"
+                android:contentDescription=" " />
+
+            <TextView
+                android:id="@+id/TSitioHistorico2_A"
+                android:layout_width="219dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="145dp"
+                android:layout_marginTop="270dp"
+                android:fontFamily="@font/helveticaneuemedium"
+                android:text="@string/TextoSitioH2_A"
+                android:textAlignment="center"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TSitioHistorico2_B"
+                android:layout_width="140dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="330dp"
+                android:drawableStart="@drawable/pin"
+                android:fontFamily="@font/helveticaneubold"
+                android:text="@string/TextoSitioH2_C"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <View
+                android:id="@+id/BSitioHistorico3"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="400dp"
+                android:background="@drawable/almacenalvarez"
+                android:radius="8dp" />
+
+
+            <TextView
+                android:id="@+id/TSitioHistorico3_A"
+                android:layout_width="219dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="145dp"
+                android:layout_marginTop="410dp"
+                android:text="@string/TextoSitioH3_A"
+                android:textAlignment="center"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/TSitioHistorico3_B"
+                android:layout_width="140dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="470dp"
+                android:drawableStart="@drawable/pin"
+                android:fontFamily="@font/helveticaneubold"
+                android:text="@string/TextoSitioH2_C"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <View
+                android:id="@+id/BSitioHistorico4"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="540dp"
+                android:background="@drawable/casaromberg"
+                android:radius="8dp" />
+
+            <TextView
+                android:id="@+id/TSitioHistorico4_A"
+                android:layout_width="219dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="145dp"
+                android:layout_marginTop="560dp"
+                android:text="@string/TextoSitioH4_A"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/TSitioHistorico4_B"
+                android:layout_width="140dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="620dp"
+                android:drawableStart="@drawable/pin"
+                android:fontFamily="@font/helveticaneubold"
+                android:text="@string/TextoSitioH2_C"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <View
+                android:id="@+id/BSitioHistorico5"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="680dp"
+                android:background="@drawable/alumnos"
+                android:radius="8dp" />
+
+            <TextView
+                android:id="@+id/TSitioHistorico5_A"
+                android:layout_width="219dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="145dp"
+                android:layout_marginTop="690dp"
+                android:text="@string/TextoSitioH5_A"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/TSitioHistorico5_B"
+                android:layout_width="140dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="750dp"
+                android:text="@string/TextoSitioH2_C"
+                android:textAlignment="center"
+                android:drawableStart="@drawable/pin"
+                android:fontFamily="@font/helveticaneubold"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+
+
+            <View
+                android:id="@+id/BSitioHistorico6"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="815dp"
+                android:background="@drawable/barberezowsky"
+                android:radius="8dp" />
+
+            <TextView
+                android:id="@+id/TSitioHistorico6_A"
+                android:layout_width="219dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="145dp"
+                android:layout_marginTop="820dp"
+                android:text="@string/TextoSitioH6_A"
+                android:textAlignment="center"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/TSitioHistorico6_B"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="950dp"
+                android:drawableStart="@drawable/pin"
+                android:fontFamily="@font/helveticaneubold"
+                android:text="@string/TextoSitioH6_C"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+
+        </FrameLayout>
+
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

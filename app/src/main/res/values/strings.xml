@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Turismo V2</string>
+    <string name="app_title1">CALETA OLIVIA</string>
+    <string name="app_subtitle">Circuito Histórico</string>
+    <string name="app_title2">Caleta en un Click</string>
+    <string name="barra_title">Caleta en un Click
+            Circuito Histórico</string>
+    <string name="button_name1">SitioHistorico1</string>
+    <string name="button_name2">SitioHistorico2</string>
+    <string name="button_name3">SitioHistorico3</string>
+    <string name="button_name4">SitioHistorico4</string>
+    <string name="button_name5">SitioHistorico5</string>
+    <string name="button_name6">SitioHistorico6</string>
+    <string name="button_superior">Turismo</string>
+    <string name="button_ordenar">Ordenar</string>
+    <string name="button_mapa">Mapa</string>
+    <string name="TextoTurismo">Turismo</string>
+    <string name="TextoOrdenar">Ordenar</string>
+    <string name="TextoMapa">Mapa</string>
+    <string name="TextoSitioH1_A">Llegada del Telégrafo</string>
+     <string name="TextoSitioH1_C">0.2km</string>
+
+    <string name="TextoSitioH2_A">Vivienda de la Familia Maimo</string>
+    <string name="TextoSitioH2_C">0.2km</string>
+
+    <string name="TextoSitioH3_A">Almacen de Juan Alvarez</string>
+    <string name="TextoSitioH3_C">0.2km</string>
+
+
+    <string name="TextoSitioH4_A">Vivienda de Ernesto Romberg</string>
+    <string name="TextoSitioH4_C">0.2km</string>
+
+
+    <string name="TextoSitioH5_A">Escuela Nº14 "20 de Noviembre"</string>
+    <string name="TextoSitioH5_C">0.2km</string>
+
+
+    <string name="TextoSitioH6_A">Surtidor de Combustible de MÁXIMO BEREZOWSKY</string>
+    <string name="TextoSitioH6_C">0.2km</string>
+
+    <string name="title_activity_mapa_co">mapaCO</string>
+
+</resources>
