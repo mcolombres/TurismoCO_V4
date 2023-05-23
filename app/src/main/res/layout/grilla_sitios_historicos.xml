@@ -37,12 +37,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="74dp"
                 android:background="@drawable/gradient_title"
-                app:logo="@drawable/iconoturismo_co_1"
+                app:logo="@drawable/icono"
                 app:logoDescription="@string/app_subtitle"
                 app:subtitle="@string/app_subtitle"
                 app:subtitleTextColor="@color/black"
                 app:title="@string/app_title2"
-                app:titleMarginStart="40dp"
+                app:titleMarginStart="30dp"
                 app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
                 >
 
@@ -86,7 +86,7 @@
                 android:autofillHints=" "
                 android:background= "@drawable/oval"
                 android:contentDescription=" "
-                app:srcCompat = "@drawable/co1914"
+                app:srcCompat = "@drawable/caletaolivia"
                 />
 
 
@@ -135,7 +135,7 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="260dp"
                 android:autofillHints=" "
-                android:background="@drawable/maimo"
+                android:background="@drawable/casatipica"
                 android:contentDescription=" " />
 
             <TextView
@@ -241,7 +241,7 @@
                 android:layout_height="125dp"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="680dp"
-                android:background="@drawable/alumnos"
+                android:background="@drawable/primeros_egresados_esc_14"
                 android:radius="8dp" />
 
             <TextView
@@ -279,7 +279,7 @@
                 android:layout_height="125dp"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="815dp"
-                android:background="@drawable/barberezowsky"
+                android:background="@drawable/bar_boliche_de_berezowsky"
                 android:radius="8dp" />
 
             <TextView
