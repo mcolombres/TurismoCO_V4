@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item> <shape android:shape="rectangle">
-        <corners android:radius="18dp"/>
+
+        <gradient
+            android:angle="348"
+            android:endColor="@color/electricblue"
+            android:startColor="@color/mayablue"
+            android:type="linear" />
+
+
+        <corners
+            android:bottomRightRadius="16dp"
+            android:bottomLeftRadius="16dp"
+            android:topRightRadius="16dp"
+            android:topLeftRadius="16dp" />
+
     </shape>
 
     </item>

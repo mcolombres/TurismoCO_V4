@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="30dp">
+        tools:layout_editor_absoluteY="42dp">
 
         <FrameLayout
             android:id="@+id/frameLayout"
@@ -42,9 +42,7 @@
                 app:subtitle="@string/app_subtitle"
                 app:subtitleTextColor="@color/black"
                 app:title="@string/app_title2"
-                app:titleMarginStart="30dp"
-                app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
-                >
+                app:titleTextAppearance="@style/TextAppearance.AppCompat.Large">
 
             </androidx.appcompat.widget.Toolbar>
 
@@ -55,11 +53,11 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="75dp"
                 android:backgroundTint="@color/white"
-                android:drawableLeft="@drawable/ordenar"
+                android:drawableStart="@drawable/ordenar"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="50dp"
                 android:text="@string/TextoOrdenar"
-                android:textAlignment="viewEnd"
                 android:textColor="@color/black"
-                android:textDirection="rtl"
                 android:textStyle="bold" />
 
 
@@ -72,40 +70,41 @@
                 android:layout_marginTop="75dp"
                 android:backgroundTint="@color/white"
                 android:drawableStart="@drawable/pin"
-                android:drawablePadding="8dp"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="50dp"
                 android:text="@string/TextoMapa"
                 android:textColor="@color/black"
                 android:textStyle="bold" />
 
             <ImageButton
                 android:id="@+id/BSitioHistorico1"
-                android:layout_width="125dp"
-                android:layout_height="125dp"
+                android:layout_width="181dp"
+                android:layout_height="164dp"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="128dp"
-                android:autofillHints=" "
-                android:background= "@drawable/oval"
+                android:background="@drawable/corners"
                 android:contentDescription=" "
-                app:srcCompat = "@drawable/caletaolivia"
-                />
+                android:scaleType="center"
+                android:src="@drawable/caletaolivia" />
 
 
             <TextView
                 android:id="@+id/TSitioHistorico1_A"
-                android:layout_width="230dp"
+                android:layout_width="197dp"
                 android:layout_height="70dp"
-                android:layout_marginStart="150dp"
+                android:layout_marginStart="200dp"
                 android:layout_marginTop="150dp"
                 android:backgroundTint="@color/white"
                 android:cursorVisible="false"
                 android:duplicateParentState="false"
                 android:focusable="false"
                 android:fontFamily="@font/helveticaneuemedium"
-                android:foregroundTint="@color/black"
                 android:importantForAccessibility="no"
+                android:letterSpacing="0.02"
                 android:text="@string/TextoSitioH1_A"
-                android:textAlignment="center"
 
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
                 android:textSize="22dp"
                 android:textStyle="bold" />
 
@@ -114,76 +113,86 @@
                 android:layout_width="140dp"
                 android:layout_height="32dp"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="220dp"
+                android:layout_marginTop="210dp"
                 android:backgroundTint="@color/white"
                 android:cursorVisible="false"
                 android:drawableStart="@drawable/pin"
                 android:duplicateParentState="false"
                 android:focusable="false"
                 android:fontFamily="@font/helveticaneubold"
-                android:foregroundTint="@color/black"
                 android:importantForAccessibility="no"
+                android:letterSpacing="0.02"
                 android:text="@string/TextoSitioH1_C"
-                android:textAlignment="center"
-                android:textSize="18dp"
-                android:textStyle="bold" />
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
 
             <ImageButton
                 android:id="@+id/BSitioHistorico2"
-                android:layout_width="125dp"
-                android:layout_height="125dp"
+                android:layout_width="181dp"
+                android:layout_height="164dp"
                 android:layout_marginStart="5dp"
-                android:layout_marginTop="260dp"
-                android:autofillHints=" "
-                android:background="@drawable/casatipica"
-                android:contentDescription=" " />
+                android:layout_marginTop="320dp"
+                android:background="@drawable/corners"
+                android:contentDescription=" "
+                android:scaleType="centerInside"
+                android:src="@drawable/casatipica" />
 
-            <TextView
-                android:id="@+id/TSitioHistorico2_A"
-                android:layout_width="219dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="145dp"
-                android:layout_marginTop="270dp"
-                android:fontFamily="@font/helveticaneuemedium"
-                android:text="@string/TextoSitioH2_A"
-                android:textAlignment="center"
-                android:textSize="22dp"
-                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/TSitioHistorico2_B"
                 android:layout_width="140dp"
                 android:layout_height="32dp"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="330dp"
+                android:layout_marginTop="400dp"
                 android:drawableStart="@drawable/pin"
                 android:fontFamily="@font/helveticaneubold"
+                android:letterSpacing="0.02"
                 android:text="@string/TextoSitioH2_C"
-                android:textAlignment="center"
-                android:textSize="18dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/TSitioHistorico2_A"
+                android:layout_width="197dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="340dp"
+                android:fontFamily="@font/helveticaneuemedium"
+                android:letterSpacing="0.02"
+                android:text="@string/TextoSitioH2_A"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="22sp"
                 android:textStyle="bold" />
 
-
-            <View
+            <ImageButton
                 android:id="@+id/BSitioHistorico3"
-                android:layout_width="125dp"
-                android:layout_height="125dp"
+                android:layout_width="181dp"
+                android:layout_height="164dp"
                 android:layout_marginStart="5dp"
-                android:layout_marginTop="400dp"
-                android:background="@drawable/almacenalvarez"
-                android:radius="8dp" />
+                android:layout_marginTop="520dp"
+                android:background="@drawable/corners"
+                android:contentDescription=" "
+                android:radius="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/almacenalvarez" />
 
 
             <TextView
                 android:id="@+id/TSitioHistorico3_A"
-                android:layout_width="219dp"
+                android:layout_width="197dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="145dp"
-                android:layout_marginTop="410dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="550dp"
                 android:text="@string/TextoSitioH3_A"
-                android:textAlignment="center"
-                android:textSize="22dp"
-                android:textStyle="bold" />
+                android:textAlignment="textStart"
+                android:letterSpacing="0.02"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                />
 
 
             <TextView
@@ -191,70 +200,83 @@
                 android:layout_width="140dp"
                 android:layout_height="32dp"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="470dp"
+                android:layout_marginTop="610dp"
                 android:drawableStart="@drawable/pin"
                 android:fontFamily="@font/helveticaneubold"
+                android:letterSpacing="0.02"
                 android:text="@string/TextoSitioH2_C"
-                android:textAlignment="center"
-                android:textSize="18dp"
-                android:textStyle="bold" />
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
 
-
-            <View
+            <ImageButton
                 android:id="@+id/BSitioHistorico4"
-                android:layout_width="125dp"
-                android:layout_height="125dp"
+                android:layout_width="181dp"
+                android:layout_height="164dp"
                 android:layout_marginStart="5dp"
-                android:layout_marginTop="540dp"
-                android:background="@drawable/casaromberg"
-                android:radius="8dp" />
+                android:layout_marginTop="720dp"
+                android:background="@drawable/corners"
+                android:contentDescription=" "
+                android:radius="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/casaromberg" />
+
 
             <TextView
                 android:id="@+id/TSitioHistorico4_A"
-                android:layout_width="219dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="145dp"
-                android:layout_marginTop="560dp"
+                android:layout_width="200dp"
+                android:layout_height="90dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="740dp"
+                android:letterSpacing="0.02"
                 android:text="@string/TextoSitioH4_A"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
                 android:textSize="24sp"
-                android:textStyle="bold" />
-
+                android:fontFamily="@font/helveticaneubold"
+                />
 
             <TextView
                 android:id="@+id/TSitioHistorico4_B"
                 android:layout_width="140dp"
                 android:layout_height="32dp"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="620dp"
+                android:layout_marginTop="840dp"
                 android:drawableStart="@drawable/pin"
                 android:fontFamily="@font/helveticaneubold"
-                android:text="@string/TextoSitioH2_C"
-                android:textAlignment="center"
-                android:textSize="18dp"
-                android:textStyle="bold" />
+                android:textColor="@color/black"
+                android:text="@string/TextoSitioH4_C"
+                android:textAlignment="textStart"
+                android:letterSpacing="0.02"
+                android:textSize="18sp"
+                />
 
 
-            <View
+            <ImageButton
                 android:id="@+id/BSitioHistorico5"
-                android:layout_width="125dp"
-                android:layout_height="125dp"
+                android:layout_width="181dp"
+                android:layout_height="164dp"
                 android:layout_marginStart="5dp"
-                android:layout_marginTop="680dp"
-                android:background="@drawable/primeros_egresados_esc_14"
-                android:radius="8dp" />
+                android:layout_marginTop="910dp"
+                android:background="@drawable/corners"
+                android:contentDescription=" "
+                android:radius="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/primeros_egresados_esc_14" />
 
             <TextView
                 android:id="@+id/TSitioHistorico5_A"
-                android:layout_width="219dp"
+                android:layout_width="190dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="145dp"
-                android:layout_marginTop="690dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="940dp"
                 android:text="@string/TextoSitioH5_A"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
+                android:letterSpacing="0.02"
+                android:textColor="@color/black"
+                android:fontFamily="@font/helveticaneubold"
                 android:textSize="24sp"
-                android:textStyle="bold" />
-
+                />
 
 
             <TextView
@@ -262,51 +284,58 @@
                 android:layout_width="140dp"
                 android:layout_height="32dp"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="750dp"
-                android:text="@string/TextoSitioH2_C"
-                android:textAlignment="center"
+                android:layout_marginTop="1040dp"
                 android:drawableStart="@drawable/pin"
                 android:fontFamily="@font/helveticaneubold"
-                android:textSize="18dp"
-                android:textStyle="bold" />
+                android:textColor="@color/black"
+                android:text="@string/TextoSitioH2_C"
+                android:textAlignment="textStart"
+                android:letterSpacing="0.02"
+                android:textSize="18sp"
+                />
 
 
-
-
-            <View
+            <ImageButton
                 android:id="@+id/BSitioHistorico6"
-                android:layout_width="125dp"
-                android:layout_height="125dp"
+                android:layout_width="181dp"
+                android:layout_height="164dp"
                 android:layout_marginStart="5dp"
-                android:layout_marginTop="815dp"
-                android:background="@drawable/bar_boliche_de_berezowsky"
-                android:radius="8dp" />
+                android:layout_marginTop="1100dp"
+                android:background="@drawable/corners"
+                android:contentDescription=" "
+                android:radius="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/bar_boliche_de_berezowsky" />
 
             <TextView
                 android:id="@+id/TSitioHistorico6_A"
-                android:layout_width="219dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="145dp"
-                android:layout_marginTop="820dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="1120dp"
                 android:text="@string/TextoSitioH6_A"
-                android:textAlignment="center"
-                android:textSize="22dp"
-                android:textStyle="bold" />
+                android:textAlignment="textStart"
+                android:textSize="22sp"
+                android:letterSpacing="0.02"
+                android:fontFamily="@font/helveticaneubold"
+                android:textColor="@color/black"
+                />
 
 
             <TextView
                 android:id="@+id/TSitioHistorico6_B"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginStart="200dp"
-                android:layout_marginTop="950dp"
+                android:layout_width="140dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="1240dp"
                 android:drawableStart="@drawable/pin"
                 android:fontFamily="@font/helveticaneubold"
                 android:text="@string/TextoSitioH6_C"
-                android:textAlignment="center"
-                android:textSize="18dp"
-                android:textStyle="bold" />
-
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:letterSpacing="0.02"
+                android:textColor="@color/black"
+                />
 
 
         </FrameLayout>
