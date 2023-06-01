@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/sitio_historico1"
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:src="@drawable/caletaolivia"
+
+        />
+
+</layer-list>

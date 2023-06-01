@@ -2,5 +2,14 @@
 <resources>
   <style name="Turismo.Theme" parent="@android:style/Theme.Material.Light" />
 
+  <style name="radius" parent="">
+    <item name="cornerSizeTopRight">20dp</item>
+    <item name="cornerSizeTopLeft">20dp</item>
+    <item name="cornerSizeBottomRight">20dp</item>
+    <item name="cornerSizeBottomLeft">20dp</item>
+    <item name="cornerFamily">rounded</item>
+    <item name="cornerRadius">32dp</item>
+  </style>
+
 </resources>
 
