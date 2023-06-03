@@ -17,25 +17,30 @@
     <string name="TextoTurismo">Turismo</string>
     <string name="TextoOrdenar">Ordenar</string>
     <string name="TextoMapa">Mapa</string>
-    <string name="TextoSitioH1_A"> Desembarco del Primer Telégrafo</string>
+    <string name="TextoSitioH1_A">Desembarco del Primer Telégrafo</string>
+    <string name="TextoSitioH1_B">CP 9011 - Caleta Olivia</string>
      <string name="TextoSitioH1_C">0.2km</string>
 
-    <string name="TextoSitioH2_A">Vivienda de la Familia Maimo</string>
+
+    <string name="TextoSitioH2_A">Vivienda de Ernesto Romberg</string>
+    <string name="TextoSitioH2_B">CP 9011 - Caleta Olivia</string>
     <string name="TextoSitioH2_C">0.2km</string>
 
     <string name="TextoSitioH3_A">Almacen de Juan Alvarez</string>
+    <string name="TextoSitioH3_B">CP 9011 - Caleta Olivia</string>
     <string name="TextoSitioH3_C">0.2km</string>
 
-
-    <string name="TextoSitioH4_A">Vivienda de Ernesto Romberg</string>
+    <string name="TextoSitioH4_A">Vivienda de la Familia Maimo</string>
+    <string name="TextoSitioH4_B">CP 9011 - Caleta Olivia</string>
     <string name="TextoSitioH4_C">0.2km</string>
 
-
-    <string name="TextoSitioH5_A">Escuela Nº14 "20 de Noviembre"</string>
+    <string name="TextoSitioH5_A">Escuela Nº14 - 20 de Noviembre</string>
+    <string name="TextoSitioH5_B">CP 9011 - Caleta Olivia</string>
     <string name="TextoSitioH5_C">0.2km</string>
 
 
-    <string name="TextoSitioH6_A">Surtidor de Combustible de MÁXIMO BEREZOWSKY</string>
+    <string name="TextoSitioH6_A">Surtidor de Combustible de M.BEREZOWSKY</string>
+    <string name="TextoSitioH6_B">CP 9011 - Caleta Olivia</string>
     <string name="TextoSitioH6_C">0.2km</string>
 
     <string name="title_activity_mapa_co">mapaCO</string>
