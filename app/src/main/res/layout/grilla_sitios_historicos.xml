@@ -90,6 +90,15 @@
                 />
 
 
+            <ImageView
+                android:id="@+id/separador1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="305dp"
+                android:src= "@drawable/barraseparadora"
+                android:scaleType="fitXY"
+                />
+
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/sitio_historico2"
                 android:layout_width="164dp"
@@ -97,9 +106,20 @@
                 android:src="@drawable/casaromberg"
                 app:shapeAppearanceOverlay="@style/radius"
                 android:layout_marginStart="5dp"
-                android:layout_marginTop="320dp"
+                android:layout_marginTop="330dp"
                 android:scaleType="fitXY"
                 />
+
+
+            <ImageView
+                android:id="@+id/separador2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="500dp"
+                android:src= "@drawable/barraseparadora"
+                android:scaleType="fitXY"
+                />
+
 
             <TextView
                 android:id="@+id/TSitioHistorico1_A"
@@ -221,6 +241,17 @@
                 />
 
 
+            <ImageView
+                android:id="@+id/separador3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="695dp"
+                android:src= "@drawable/barraseparadora"
+                android:scaleType="fitXY"
+                />
+
+
+
             <TextView
                 android:id="@+id/TSitioHistorico3_A"
                 android:layout_width="197dp"
@@ -283,6 +314,16 @@
                 android:scaleType="fitXY"
                 />
 
+            <ImageView
+                android:id="@+id/separador4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="895dp"
+                android:src= "@drawable/barraseparadora"
+                android:scaleType="fitXY"
+                />
+
+
             <TextView
                 android:id="@+id/TSitioHistorico4_A"
                 android:layout_width="200dp"
@@ -336,13 +377,12 @@
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/sitio_historico5"
                 android:layout_width="164dp"
-                android:layout_height="164dp"
-                android:src="@drawable/primeros_egresados_esc_14"
-                app:shapeAppearanceOverlay="@style/radius"
+                android:layout_height="140dp"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="910dp"
                 android:scaleType="fitXY"
-                />
+                android:src="@drawable/primeros_egresados_esc_14"
+                app:shapeAppearanceOverlay="@style/radius" />
 
 
 
@@ -390,7 +430,7 @@
                 android:layout_width="140dp"
                 android:layout_height="32dp"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="1040dp"
+                android:layout_marginTop="1020dp"
                 android:drawableStart="@drawable/pin_1"
                 android:fontFamily="@font/helveticaneuemedium"
                 android:textColor="@color/black"
@@ -400,6 +440,16 @@
                 android:letterSpacing="0.02"
                 android:textSize="16sp"
                 />
+
+            <ImageView
+                android:id="@+id/separador5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1070dp"
+                android:src= "@drawable/barraseparadora"
+                android:scaleType="fitXY"
+                />
+
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/sitio_historico6"
