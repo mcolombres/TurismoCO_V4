@@ -32,19 +32,21 @@
 
             </com.google.android.material.appbar.AppBarLayout>
 
+
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar_main"
                 android:layout_width="match_parent"
                 android:layout_height="74dp"
+                app:logo="@drawable/icono2"
                 android:background="@drawable/gradient_title"
-                app:logo="@drawable/icono"
-                app:logoDescription="@string/app_subtitle"
                 app:subtitle="@string/app_subtitle"
+                app:subtitleTextAppearance="@style/TextAppearance.BarraTareas.Subtitulo"
                 app:subtitleTextColor="@color/black"
                 app:title="@string/app_title2"
-                app:titleTextAppearance="@style/TextAppearance.AppCompat.Large">
+                app:titleTextAppearance="@style/TextAppearance.BarraTareas.Titulo">
 
             </androidx.appcompat.widget.Toolbar>
+
 
             <Button
                 android:id="@+id/button_ordenar"
@@ -67,7 +69,7 @@
                 style="?android:attr/borderlessButtonStyle"
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="190dp"
+                android:layout_marginStart="200dp"
                 android:layout_marginTop="75dp"
                 android:backgroundTint="@color/white"
                 android:drawableStart="@drawable/pin_1"
@@ -78,6 +80,17 @@
                 android:textColor="@color/black"
                 android:textStyle="bold" />
 
+
+            <ImageView
+                android:id="@+id/separador0"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="140dp"
+                android:src= "@drawable/barraseparadora"
+                android:scaleType="fitXY"
+                />
+
+
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/sitio_historico1"
                 android:layout_width="164dp"
@@ -85,7 +98,7 @@
                 android:src="@drawable/caletaolivia"
                 app:shapeAppearanceOverlay="@style/radius"
                 android:layout_marginStart="5dp"
-                android:layout_marginTop="135dp"
+                android:layout_marginTop="160dp"
                 android:scaleType="fitXY"
                 />
 
@@ -94,7 +107,7 @@
                 android:id="@+id/separador1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="305dp"
+                android:layout_marginTop="340dp"
                 android:src= "@drawable/barraseparadora"
                 android:scaleType="fitXY"
                 />
@@ -106,7 +119,7 @@
                 android:src="@drawable/casaromberg"
                 app:shapeAppearanceOverlay="@style/radius"
                 android:layout_marginStart="5dp"
-                android:layout_marginTop="330dp"
+                android:layout_marginTop="360dp"
                 android:scaleType="fitXY"
                 />
 
@@ -115,7 +128,7 @@
                 android:id="@+id/separador2"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="500dp"
+                android:layout_marginTop="540dp"
                 android:src= "@drawable/barraseparadora"
                 android:scaleType="fitXY"
                 />
@@ -126,7 +139,7 @@
                 android:layout_width="197dp"
                 android:layout_height="70dp"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="135dp"
+                android:layout_marginTop="160dp"
                 android:backgroundTint="@color/white"
                 android:cursorVisible="false"
                 android:duplicateParentState="false"
@@ -146,7 +159,7 @@
                 android:layout_width="197dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="200dp"
+                android:layout_marginTop="220dp"
                 android:backgroundTint="@color/white"
                 android:cursorVisible="false"
                 android:duplicateParentState="false"
@@ -165,7 +178,7 @@
                 android:layout_width="140dp"
                 android:layout_height="32dp"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="250dp"
+                android:layout_marginTop="270dp"
                 android:backgroundTint="@color/white"
                 android:cursorVisible="false"
                 android:drawableStart="@drawable/pin_1"
@@ -184,7 +197,7 @@
                 android:layout_width="140dp"
                 android:layout_height="32dp"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="440dp"
+                android:layout_marginTop="470dp"
                 android:drawableStart="@drawable/pin_1"
                 android:fontFamily="@font/helveticaneuemedium"
                 android:letterSpacing="0.02"
@@ -199,7 +212,7 @@
                 android:layout_width="197dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="335dp"
+                android:layout_marginTop="370dp"
                 android:fontFamily="@font/helveticaneuemedium"
                 android:letterSpacing="0.02"
                 android:text="@string/TextoSitioH2_A"
@@ -214,7 +227,7 @@
                 android:layout_width="197dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="390dp"
+                android:layout_marginTop="420dp"
                 android:backgroundTint="@color/white"
                 android:cursorVisible="false"
                 android:duplicateParentState="false"
@@ -236,7 +249,7 @@
                 android:src="@drawable/almacenalvarez"
                 app:shapeAppearanceOverlay="@style/radius"
                 android:layout_marginStart="5dp"
-                android:layout_marginTop="520dp"
+                android:layout_marginTop="560dp"
                 android:scaleType="fitXY"
                 />
 
@@ -245,7 +258,7 @@
                 android:id="@+id/separador3"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="695dp"
+                android:layout_marginTop="740dp"
                 android:src= "@drawable/barraseparadora"
                 android:scaleType="fitXY"
                 />
@@ -257,7 +270,7 @@
                 android:layout_width="197dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="530dp"
+                android:layout_marginTop="570dp"
                 android:fontFamily="@font/helveticaneuemedium"
                 android:text="@string/TextoSitioH3_A"
                 android:gravity ="center|left"
@@ -273,7 +286,7 @@
                 android:layout_width="197dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="590dp"
+                android:layout_marginTop="630dp"
                 android:backgroundTint="@color/white"
                 android:cursorVisible="false"
                 android:duplicateParentState="false"
@@ -292,7 +305,7 @@
                 android:layout_width="140dp"
                 android:layout_height="32dp"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="640dp"
+                android:layout_marginTop="680dp"
                 android:drawableStart="@drawable/pin_1"
                 android:letterSpacing="0.02"
                 android:text="@string/TextoSitioH2_C"
@@ -308,7 +321,7 @@
                 android:layout_width="164dp"
                 android:layout_height="164dp"
                 android:layout_marginStart="4dp"
-                android:layout_marginTop="719dp"
+                android:layout_marginTop="760dp"
                 android:src="@drawable/casatipica"
                 app:shapeAppearanceOverlay="@style/radius"
                 android:scaleType="fitXY"
@@ -318,7 +331,7 @@
                 android:id="@+id/separador4"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="895dp"
+                android:layout_marginTop="940dp"
                 android:src= "@drawable/barraseparadora"
                 android:scaleType="fitXY"
                 />
@@ -329,7 +342,7 @@
                 android:layout_width="200dp"
                 android:layout_height="90dp"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="720dp"
+                android:layout_marginTop="760dp"
                 android:letterSpacing="0.02"
                 android:text="@string/TextoSitioH4_A"
                 android:textColor="@color/black"
@@ -346,7 +359,7 @@
                 android:layout_width="197dp"
                 android:layout_height="32dp"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="800dp"
+                android:layout_marginTop="840dp"
                 android:fontFamily="@font/helveticaneuemedium"
                 android:gravity="center|left"
                 android:importantForAccessibility="no"
@@ -363,7 +376,7 @@
                 android:layout_width="140dp"
                 android:layout_height="32dp"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="840dp"
+                android:layout_marginTop="880dp"
                 android:drawableStart="@drawable/pin_1"
                 android:fontFamily="@font/helveticaneuemedium"
                 android:letterSpacing="0.02"
@@ -377,9 +390,9 @@
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/sitio_historico5"
                 android:layout_width="164dp"
-                android:layout_height="140dp"
+                android:layout_height="164dp"
                 android:layout_marginStart="5dp"
-                android:layout_marginTop="910dp"
+                android:layout_marginTop="960dp"
                 android:scaleType="fitXY"
                 android:src="@drawable/primeros_egresados_esc_14"
                 app:shapeAppearanceOverlay="@style/radius" />
@@ -391,7 +404,7 @@
                 android:layout_width="190dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="920dp"
+                android:layout_marginTop="975dp"
                 android:text="@string/TextoSitioH5_A"
                 android:fontFamily="@font/helveticaneuemedium"
                 android:importantForAccessibility="no"
@@ -409,7 +422,7 @@
                 android:layout_width="190dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="980dp"
+                android:layout_marginTop="1030dp"
                 android:backgroundTint="@color/white"
                 android:cursorVisible="false"
                 android:duplicateParentState="false"
@@ -430,7 +443,7 @@
                 android:layout_width="140dp"
                 android:layout_height="32dp"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="1020dp"
+                android:layout_marginTop="1080dp"
                 android:drawableStart="@drawable/pin_1"
                 android:fontFamily="@font/helveticaneuemedium"
                 android:textColor="@color/black"
@@ -445,7 +458,7 @@
                 android:id="@+id/separador5"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="1070dp"
+                android:layout_marginTop="1150dp"
                 android:src= "@drawable/barraseparadora"
                 android:scaleType="fitXY"
                 />
@@ -458,7 +471,7 @@
                 android:src="@drawable/bar_boliche_de_berezowsky"
                 app:shapeAppearanceOverlay="@style/radius"
                 android:layout_marginStart="5dp"
-                android:layout_marginTop="1100dp"
+                android:layout_marginTop="1180dp"
                 android:scaleType="fitXY"
                 />
 
@@ -469,7 +482,7 @@
                 android:layout_width="215dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="1115dp"
+                android:layout_marginTop="1200dp"
                 android:text="@string/TextoSitioH6_A"
                 android:textAlignment="textStart"
                 android:textSize="18sp"
@@ -483,7 +496,7 @@
                 android:layout_width="197dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="1190dp"
+                android:layout_marginTop="1270dp"
                 android:backgroundTint="@color/white"
                 android:cursorVisible="false"
                 android:duplicateParentState="false"
@@ -503,7 +516,7 @@
                 android:layout_width="140dp"
                 android:layout_height="32dp"
                 android:layout_marginStart="200dp"
-                android:layout_marginTop="1230dp"
+                android:layout_marginTop="1310dp"
                 android:drawableStart="@drawable/pin_1"
                 android:fontFamily="@font/helveticaneuemedium"
                 android:text="@string/TextoSitioH6_C"
@@ -512,26 +525,6 @@
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 />
-
-            <View
-                android:id="@+id/divider"
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="?android:attr/listDivider" />
-
-            <View
-                android:id="@+id/divider2"
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="?android:attr/listDivider" />
-
-            <View
-                android:id="@+id/divider3"
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="?android:attr/listDivider"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
 
 
         </FrameLayout>
